@@ -13,7 +13,7 @@ const NavBar: React.FC = () => {
                     <img src="/assets/logo.png" alt="logo" style={{ marginRight: 10 }} />
                     ReactiveNess
                 </Menu.Item>
-                <Menu.Item name='Activities' />
+                <Menu.Item name='Activitties!' />
                 <Menu.Item>
                     <Button onClick={activityStore.openCreateForm} positive content='Create Activity' />
                 </Menu.Item>
